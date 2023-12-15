@@ -7,14 +7,63 @@ import java.awt.*;
 
 public class VentanaPrincipalVista extends JFrame {
 
-    private JTextField txtId = new JTextField(10);
-    private JTextField txtNombre = new JTextField(10);
-    private JTextField txtApellidos = new JTextField(10);
-    private JTextField txtTelefono = new JTextField(10);
-    private JTextField txtEdad = new JTextField(10);
-    private JTextField txtPeso = new JTextField(10);
-    private JTextField txtTalla = new JTextField(10);
-    private JTextField txtPadecimiento = new JTextField(10);
+    private static JTextField txtId = new JTextField(10);
+    private static JTextField txtNombre = new JTextField(10);
+    private static JTextField txtApellidos = new JTextField(10);
+
+    public static JTextField getTxtId() {
+
+        return txtId;
+
+    }
+
+    public static JTextField getTxtNombre() {
+
+        return txtNombre;
+
+    }
+
+    public static JTextField getTxtApellidos() {
+
+        return txtApellidos;
+
+    }
+
+    public static JTextField getTxtTelefono() {
+
+        return txtTelefono;
+
+    }
+
+    public static JTextField getTxtEdad() {
+
+        return txtEdad;
+
+    }
+
+    public static JTextField getTxtPeso() {
+
+        return txtPeso;
+
+    }
+
+    public static JTextField getTxtTalla() {
+
+        return txtTalla;
+
+    }
+
+    public static JTextField getTxtPadecimiento() {
+
+        return txtPadecimiento;
+
+    }
+
+    private static JTextField txtTelefono = new JTextField(10);
+    private static JTextField txtEdad = new JTextField(10);
+    private static JTextField txtPeso = new JTextField(10);
+    private static JTextField txtTalla = new JTextField(10);
+    private static JTextField txtPadecimiento = new JTextField(10);
 
     public VentanaPrincipalVista() {
 
